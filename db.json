@@ -1,16 +1,59 @@
 {
-  "posts":[
+  "events": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": 1,
+      "name": "trip",
+      "date": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": 1,
+      "name": "trip2",
+      "date": "",
+      "time": "",
+      "duration": ""
     }
   ],
-  "comments" : [
+  "Students": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 1,
+      "name": "Shelby carson"
+    },
+    {
+      "id": 2,
+      "name": "bob bobberson"
+    },
+    {
+      "id": 3,
+      "name": "DABABY"
+    },
+    {
+      "id": 4,
+      "name": "herby henderson"
+    }
+  ],
+  "Attendance": [
+    {
+      "id": 1,
+      "studentId": 1,
+      "eventId": 1,
+      "timeIn": "",
+      "timeOut": ""
+    },
+    {
+      "id": 2,
+      "studentId": 1,
+      "eventId": 2,
+      "timeIn": "",
+      "timeOut": ""
+    },
+    {
+      "id": 3,
+      "studentId": 3,
+      "eventId": 1,
+      "timeIn": "",
+      "timeOut": ""
     }
   ]
 }
